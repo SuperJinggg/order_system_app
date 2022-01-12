@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:user_message"
+        ohos:height="110vp"
+        ohos:width="match_parent"
+        ohos:background_element="#35a9d0"
+        ohos:orientation="horizontal">
+        <Image
+            ohos:id="$+id:icon"
+            ohos:height="90vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:layout_alignment="center"
+            ohos:left_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:image_src="$media:touxiang"
+            />
+        <Text
+            ohos:id="$+id:customer_name"
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:weight="2"
+            ohos:layout_alignment="center"
+            ohos:text="手机号："
+            ohos:text_color="#ffffff"
+            ohos:left_margin="10vp"
+            ohos:text_size="25fp"/>
+
+        <Button
+            ohos:id="$+id:update_name"
+            ohos:height="60vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="修改用户名"
+            ohos:background_element="$graphic:button_state"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"
+            ohos:text_color="#ffffff"/>
+
+    </DirectionalLayout>
+
+    <!--我的总额-->
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:id="$+id:money"
+        ohos:top_margin="20vp"
+        ohos:orientation="horizontal"
+        >
+        <Image
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:weight="0.7"
+            ohos:top_margin="5vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:image_src="$media:mymoney"
+            ohos:left_margin="20vp"
+            ohos:scale_mode="inside"/>
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="horizontal">
+            <Text
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="0.5"
+                ohos:text_alignment="center"
+                ohos:text="余额 ："
+                ohos:text_size="20fp"/>
+            <Text
+                ohos:id="$+id:my_money"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+                ohos:text_size="20fp"
+                ohos:layout_alignment="vertical_center"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:height="70vp"
+        ohos:width="200vp"
+        ohos:id="$+id:check_order"
+        ohos:background_element="$graphic:button_state"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="查看订单"
+        ohos:text_size="25fp"
+        ohos:text_color="#ffffff"
+        ohos:text_alignment="center"/>
+
+    <Button
+        ohos:height="70vp"
+        ohos:width="200vp"
+        ohos:id="$+id:check_reserve_table"
+        ohos:background_element="$graphic:button_state"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="查看预约信息"
+        ohos:text_size="25fp"
+        ohos:text_color="#ffffff"
+        ohos:text_alignment="center"/>
+
+    <Button
+        ohos:height="70vp"
+        ohos:width="200vp"
+        ohos:id="$+id:recharge"
+        ohos:background_element="$graphic:button_state"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="充值余额"
+        ohos:text_size="25fp"
+        ohos:text_color="#ffffff"
+        ohos:text_alignment="center"/>
+
+
+
+
+
+
+</DirectionalLayout>

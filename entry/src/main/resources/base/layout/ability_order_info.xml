@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#35a9d0"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <!--消息-->
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text="订单信息"
+                ohos:text_size="22fp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="12vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#35a9d0">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="订单号："
+            ohos:text_size="18fp"
+            ohos:text_color="#ffffff"
+            ohos:text_alignment="center"/>
+        <Text
+            ohos:id="$+id:order_id"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:text_alignment="center"
+            ohos:weight="3"
+            ohos:text_color="#ffffff"
+            ohos:text_size="18fp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#35a9d0">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="餐桌号："
+            ohos:text_size="25fp"
+            ohos:text_color="#ffffff"
+            ohos:text_alignment="center"/>
+        <Text
+            ohos:id="$+id:table_id"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+
+            ohos:weight="1"
+            ohos:text_color="#ffffff"
+            ohos:text_size="25fp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#35a9d0">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="创建订单时间："
+            ohos:text_size="14fp"
+            ohos:text_color="#ffffff"
+            ohos:left_padding="15vp"/>
+        <Text
+            ohos:id="$+id:order_startT"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:text_alignment="center"
+            ohos:weight="3"
+            ohos:text_color="#ffffff"
+            ohos:text_size="14fp"/>
+    </DirectionalLayout>
+
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1.5"
+            ohos:text_size="18fp"
+            ohos:text="菜品"
+            ohos:text_alignment="center"/>
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="18fp"
+            ohos:text="单价"
+            ohos:text_alignment="center"/>
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="18fp"
+            ohos:text="数量"
+            ohos:text_alignment="center"/>
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="18fp"
+            ohos:text="小计"
+            ohos:text_alignment="center"/>
+    </DirectionalLayout>
+
+    <ListContainer
+        ohos:height="0vp"
+        ohos:weight="1"
+        ohos:width="match_parent"
+        ohos:id="$+id:order_listcontainer"
+        />
+
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#35a9d0">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="80vp"
+            ohos:text="餐桌费："
+            ohos:text_size="18fp"
+            ohos:text_color="black"
+            ohos:text_alignment="center"
+            />
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="200vp"
+            ohos:id="$+id:table_price"
+            ohos:text_color="black"
+            ohos:text_size="20fp"
+            ohos:text_alignment="vertical_center"/>
+
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#35a9d0">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="80vp"
+            ohos:text="总价："
+            ohos:text_size="20fp"
+            ohos:text_color="black"
+            ohos:text_alignment="center"
+            />
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="200vp"
+            ohos:id="$+id:order_all_price"
+            ohos:text_color="black"
+            ohos:text_size="25fp"
+            ohos:text_alignment="vertical_center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="70vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:pay_order"
+            ohos:height="60vp"
+            ohos:width="150vp"
+            ohos:background_element="#35a9d0"
+            ohos:text="支付订单"
+            ohos:text_size="23fp"
+            ohos:left_margin="20vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_color="white"
+            />
+
+        <Button
+            ohos:id="$+id:continue_order"
+            ohos:height="60vp"
+            ohos:width="150vp"
+            ohos:background_element="#35a9d0"
+            ohos:text="接着点菜"
+            ohos:left_margin="30vp"
+            ohos:text_size="23fp"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_color="white"
+            />
+
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

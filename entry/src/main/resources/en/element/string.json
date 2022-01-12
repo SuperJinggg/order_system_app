@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_UserSystem",
+      "value": "entry_UserSystem"
+    },
+    {
+      "name": "usersystem_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "usersystem_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SaomiaoAbility",
+      "value": "entry_SaomiaoAbility"
+    },
+    {
+      "name": "saomiaoability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "saomiaoability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SaomiaoSlice",
+      "value": "entry_SaomiaoSlice"
+    },
+    {
+      "name": "saomiaoslice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "saomiaoslice_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

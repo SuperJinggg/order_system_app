@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:id="$+id:back"
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:margin="10vp"
+        ohos:image_src="$media:info_food_back"
+        ohos:scale_mode="inside"/>
+
+    <Text
+        ohos:id="$+id:info_food_name"
+        ohos:height="100vp"
+        ohos:width="100vp"
+        ohos:text_size="25fp"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        />
+
+    <Text
+        ohos:id="$+id:info_food_price"
+        ohos:height="60vp"
+        ohos:width="100vp"
+        ohos:text_size="20fp"
+        ohos:top_margin="25vp"
+        ohos:layout_alignment="horizontal_center"/>
+
+    <Text
+        ohos:height="50vp"
+        ohos:width="100vp"
+        ohos:text="详情"
+        ohos:text_size="20fp"
+        ohos:top_margin="15vp"
+        ohos:layout_alignment="horizontal_center"/>
+
+    <Text
+        ohos:id="$+id:info_food_content"
+        ohos:height="150vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:beauty_btn"
+        ohos:text_size="20fp"
+        ohos:top_margin="10vp"
+        ohos:multiple_lines="true"
+        ohos:layout_alignment="horizontal_center"/>
+
+    <Button
+        ohos:id="$+id:add_food"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:background_element="#35a9d0"
+        ohos:text="添加该菜品"
+        ohos:text_size="23fp"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_color="white"
+        />
+
+</DirectionalLayout>

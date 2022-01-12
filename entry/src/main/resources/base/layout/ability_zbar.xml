@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+<SurfaceProvider
+    ohos:id="$+id:zbar_surfaceprovider"
+    ohos:height="640"
+    ohos:width="640"
+    ohos:top_margin="50"
+    ohos:layout_alignment="horizontal_center"
+
+    />
+
+<Text
+    ohos:layout_alignment="horizontal_center"
+    ohos:id="$+id:zbar_text"
+    ohos:height="1010"
+    ohos:width="match_content"
+    ohos:top_margin="50"
+    ohos:multiple_lines="true"
+    ohos:text_size="100"
+    ohos:text="扫描中"
+    />
+
+
+    <DirectionalLayout
+        ohos:height="130"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#DCDCDC"
+        ohos:alignment="center">
+
+
+
+
+    </DirectionalLayout>
+</DirectionalLayout>

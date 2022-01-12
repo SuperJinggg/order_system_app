@@ -1,0 +1,65 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        release {
+            storeFile file('D:\\key\\orderSystem\\order_system.p12')
+            storePassword '0000001BE28103D559B0BF664E2B5EEC7A07CF3D768C545C0BFA0341FD80A2999049A01F0722F977E7C748'
+            keyAlias = 'order_system_debug'
+            keyPassword '0000001B30B5328A629C2681EE1B22BC4CC587ABCBC36C469EA67D39078EF04E6D1DB80C6E3377ADE6FFAD'
+            signAlg = 'SHA256withECDSA'
+            profile file('F:\\迅雷下载\\扫码点餐Debug.p7b')
+            certpath file('F:\\迅雷下载\\扫码点餐.cer')
+        }
+        debug {
+            storeFile file('C:\\Users\\Administrator\\.ohos\\config\\auto_debug_ordersystemapplication_260086000302025651.p12')
+            storePassword '00000018881E4CFA577787F27F00B384373169EE156839A2EFFB73B242EF491C84623381B5BFC24A'
+            keyAlias = 'debugKey'
+            keyPassword '00000018A42FCE8F50B53D224BFCD8A917F49D0BFF13FFFEB7394D220B99F5EBA8FFFD8E5D7A0AE1'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\Administrator\\.ohos\\config\\auto_debug_ordersystemapplication_260086000302025651.p7b')
+            certpath file('C:\\Users\\Administrator\\.ohos\\config\\auto_debug_ordersystemapplication_260086000302025651.cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.0.5.2'
+        classpath 'com.huawei.ohos:decctest:1.2.7.2'
+        // Add dependencies.
+        classpath 'com.huawei.agconnect:agcp-harmony:1.0.0.300'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+        maven {
+            url 'https://s01.oss.sonatype.org/content/repositories/releases/'
+        }
+
+        mavenCentral()
+
+    }
+}
+

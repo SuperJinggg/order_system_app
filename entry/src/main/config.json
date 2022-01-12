@@ -1,0 +1,226 @@
+{
+  "app": {
+    "bundleName": "com.example.ordersystemapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "package": "com.example.ordersystemapplication",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.ordersystemapplication.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+        }
+      ]
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.BIND_REMOTEVIEWS",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.servicebus.ACCESS_SERVICE",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.CAMERA",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.RECORD_AUDIO",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestapp"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestapp"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_EXTERNAL_STORAGE",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestapp"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.READ_EXTERNAL_STORAGE",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestapp"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.SYSTEM_FLOAT_WINDOW",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.SYSTEM_OVERLAY_WINDOW",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestproject"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.ordersystemapplication.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ordersystemapplication.UserSystem",
+        "icon": "$media:icon",
+        "description": "$string:usersystem_description",
+        "label": "$string:entry_UserSystem",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ordersystemapplication.Saomiao",
+        "icon": "$media:icon",
+        "description": "$string:saomiaoslice_description",
+        "label": "$string:entry_SaomiaoSlice",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:background_element="#35a9d0"
+        ohos:orientation="horizontal">
+
+        <!--顾客ID-->
+        <Text
+            ohos:height="80vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="顾客："
+            ohos:text_color="white"
+            ohos:text_size="30fp"
+            ohos:layout_alignment="vertical_center"
+            ohos:left_padding="10vp"
+            />
+        <Text
+            ohos:id="$+id:user_phone"
+            ohos:height="80vp"
+            ohos:width="0vp"
+            ohos:weight="3"
+            ohos:text_size="30fp"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_color="white"/>
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:order"
+        ohos:height="180vp"
+        ohos:width="300vp"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$graphic:button_state"
+        ohos:text="扫码点餐"
+        ohos:text_color="white"
+        ohos:text_size="40fp"
+        ohos:text_alignment="center"/>
+
+    <Button
+        ohos:id="$+id:reserve"
+        ohos:height="180vp"
+        ohos:width="300vp"
+        ohos:top_margin="50vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$graphic:button_state"
+        ohos:text="预约餐桌"
+        ohos:text_color="white"
+        ohos:text_size="40fp"
+        ohos:text_alignment="center"/>
+
+</DirectionalLayout>

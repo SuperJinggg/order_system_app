@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+
+
+        <Text
+            ohos:id="$+id:recorder_food_name"
+            ohos:height="80vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="25fp"
+            ohos:text_color="black"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="vertical_center"
+            />
+
+        <Text
+            ohos:id="$+id:recorder_food_price"
+            ohos:height="80vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="25fp"
+            ohos:text_color="black"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="vertical_center"
+            />
+
+        <DirectionalLayout
+            ohos:height="80vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:layout_alignment="vertical_center"
+            ohos:orientation="horizontal">
+
+            <Image
+                ohos:id="$+id:decrease_record"
+                ohos:height="30vp"
+                ohos:width="30vp"
+                ohos:scale_mode="inside"
+                ohos:right_margin="10vp"
+                ohos:image_src="$media:decrease"
+                ohos:layout_alignment="vertical_center"/>
+
+            <Text
+                ohos:id="$+id:recorder_food_num"
+                ohos:height="40vp"
+                ohos:width="35vp"
+                ohos:text_size="25fp"
+                ohos:text_color="black"
+                ohos:text_alignment="center"
+                ohos:background_element="$graphic:beauty_btn"
+                ohos:layout_alignment="vertical_center"
+                />
+
+            <Image
+                ohos:id="$+id:add_record"
+                ohos:height="30vp"
+                ohos:width="30vp"
+                ohos:left_margin="10vp"
+                ohos:scale_mode="inside"
+                ohos:image_src="$media:add"
+                ohos:layout_alignment="vertical_center"/>
+
+
+        </DirectionalLayout>
+
+
+
+
+
+    </DirectionalLayout>
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+
+
+</DirectionalLayout>

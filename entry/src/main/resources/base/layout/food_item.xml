@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <DirectionalLayout
+            ohos:id="$+id:dl_food"
+            ohos:height="100vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:food_name"
+                ohos:height="80vp"
+                ohos:width="0vp"
+                ohos:weight="1"
+                ohos:text_size="25fp"
+                ohos:text_color="black"
+                ohos:text_alignment="center"
+                ohos:layout_alignment="vertical_center"
+                />
+
+            <Text
+                ohos:id="$+id:food_price"
+                ohos:height="80vp"
+                ohos:width="0vp"
+                ohos:weight="1"
+                ohos:text_size="25fp"
+                ohos:text_color="black"
+                ohos:text_alignment="center"
+                ohos:layout_alignment="vertical_center"
+                />
+
+        </DirectionalLayout>
+
+
+        <Image
+            ohos:id="$+id:add_food"
+            ohos:height="30vp"
+            ohos:width="30vp"
+            ohos:scale_mode="inside"
+            ohos:image_src="$media:add"
+            ohos:right_margin="10vp"
+            ohos:layout_alignment="vertical_center"/>
+
+
+    </DirectionalLayout>
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+
+
+</DirectionalLayout>

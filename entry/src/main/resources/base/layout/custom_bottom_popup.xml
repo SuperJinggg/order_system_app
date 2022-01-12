@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:text_alignment="center"
+        ohos:text="订单信息"
+        ohos:text_size="22fp"
+        ohos:text_color="#ffffff"/>
+
+    <ListContainer
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:id="$+id:recorder_listcontainer"
+        />
+
+</DirectionalLayout>
