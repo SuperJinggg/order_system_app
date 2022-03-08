@@ -12,21 +12,25 @@
 不懂的看文档以及个人博客：www.abyss.website
 
 #### 前端展示
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/登录.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/注册.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/修改密码.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/首页.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/用户信息.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/改名.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/充值.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/登录.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/扫码.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/点餐.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/菜品信息.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/查询菜品.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/搜索菜品.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/已点菜品.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/订单信息.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/支付订单.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/预约餐桌.jpg)
-![image text](https://gitee.com/abyss_Jim/order_system_app/tree/master/images/预约信息.jpg)
+
+![登录](images/%E7%99%BB%E5%BD%95.jpg)
+![注册](images/%E6%B3%A8%E5%86%8C.jpg)
+![修改密码](images/%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81.jpg)
+
+![首页](images/%E9%A6%96%E9%A1%B5.jpg)
+
+![扫码](images/%E6%89%AB%E7%A0%81.jpg)
+![点餐](images/%E7%82%B9%E9%A4%90.jpg)
+![菜品信息](images/%E8%8F%9C%E5%93%81%E4%BF%A1%E6%81%AF.jpg)
+![根据菜品类别查询菜品](images/%E6%9F%A5%E8%AF%A2%E8%8F%9C%E5%93%81.jpg)
+![根据菜品名称查询菜品](images/%E6%90%9C%E7%B4%A2%E8%8F%9C%E5%93%81.jpg)
+![已点菜品](images/%E5%B7%B2%E7%82%B9%E8%8F%9C%E5%93%81.jpg)
+![订单信息](images/%E8%AE%A2%E5%8D%95%E4%BF%A1%E6%81%AF.jpg)
+![支付订单](images/%E6%94%AF%E4%BB%98%E8%AE%A2%E5%8D%95.jpg)
+
+![预约餐桌](images/%E9%A2%84%E7%BA%A6%E9%A4%90%E6%A1%8C.jpg)
+![预约信息](images/%E9%A2%84%E7%BA%A6%E4%BF%A1%E6%81%AF.jpg)
+
+![用户](images/%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF.jpg)
+![改名](images/%E6%94%B9%E5%90%8D.jpg)
+![充值](images/%E5%85%85%E5%80%BC.jpg)
